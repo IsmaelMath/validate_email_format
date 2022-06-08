@@ -16,3 +16,4 @@ def calcular(x, capital_inicial, juros, tempo):
         js(capital_inicial, juros, tempo)
     else:
         jc(capital_inicial, juros, tempo)
+        
