@@ -8,10 +8,10 @@ def media(lista_numeros, periodo):
         if x+periodo >= len(lista_numeros):
             break
 
-    print(f"A media de periodo {periodo} e:  {media_dinamica}")
+    print(f"A média de periodo {periodo} é:  {media_dinamica}")
     return media_dinamica
 
 lista = [25, 35, 45, 77, 85, 78, 48, 36, 49, 100]
-periodo = int(input("Informe o perido que deseja calcular na media"))
+periodo = int(input("Informe o perido que deseja calcular na media: "))
 
 w = media(lista, periodo) 
